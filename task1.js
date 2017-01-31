@@ -38,7 +38,7 @@ browser.manage().window().maximize();
 browser.sleep(2000); // 2 seconds
 
 // Enter UserName
-browser.findElement(By.name('email')).sendKeys(adminEmail); // not working, throws ElementNotVisibleError
+browser.findElement(By.name('email')).sendKeys(adminEmail);
 
 // Enter Password
 browser.findElement(By.name('password')).sendKeys(adminPassword);
